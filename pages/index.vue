@@ -95,13 +95,13 @@ export default {
                         scrub: 1,
                         pin: true,
                         pinSpacing: false,
-                        pinAnicipate: 1
+                        pinAnticipate: 1
                     }
                 })
                 .to(
                     "#container",
                     {
-                        height: this.$el.clientHeight / 3 + "vh",
+                        height: this.$el.clientHeight / 2.5 + "vh",
                         backgroundColor: "#4C51BF" // primary-color
                     },
                     "<1" // one second later
@@ -148,7 +148,7 @@ export default {
 
 /* Fix for IOS View Height | https://css-tricks.com/css-fix-for-100vh-in-mobile-webkit/
  */
-body {
+/* body {
     min-height: 100vh !important;
     overflow-x: hidden;
     font-family: "Alata", sans-serif;
@@ -156,13 +156,13 @@ body {
 }
 html {
     height: -webkit-fill-available !important;
-}
+} */
 
 /*  page parent for CSS custom propertyies  */
 .hero {
     font-size: 16px;
     font-family: inherit;
-    height: 100vh;
+    height: 120vh;
     width: 100%;
 
     --bg-white: #fff;
